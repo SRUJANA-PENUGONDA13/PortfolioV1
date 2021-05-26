@@ -25,36 +25,8 @@ app.get('',(req,res)=>
     res.render('index')
    
 })
-app.get('/home',(req,res)=>
-{
-    res.render('home')  
-})
-app.get('/about',(req,res)=>
-{
-    res.render('about')
-})
-app.get('/skills',(req,res)=>
-{
-    res.render('skills')
-   
-})
-app.get('/projects',(req,res)=>
-{
-    res.render('projects',{'name':"Srujana"})
-   
-})
-app.get('/experience',(req,res)=>
-{
-    res.render('experience')
-})
-app.get('/contact',(req,res)=>
-{
-    res.render('contact')
-   
-})
 app.get('/sendEmail',(req,res)=>
 {
-    console.log("Hi Send Mail Called")
     url = 'https://personal-mail.herokuapp.com/'+'/'+'mail'+'/'+req.query.name+'/'+req.query.email+'/'+req.query.message
     request(url, (error,response)=>
     {
