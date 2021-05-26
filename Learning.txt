@@ -1,0 +1,2 @@
+1. I think line height should be same in entire page. So we can mention that in rem - 1.7rem
+2. Difference between position relative and fixed

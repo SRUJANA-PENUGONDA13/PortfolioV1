@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Srujana Penugonda Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Srujana Penugonda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "i": "^0.3.6",
+    "install": "^0.13.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
