@@ -27,21 +27,7 @@ app.get('',(req,res)=>
 })
 app.get('/sendEmail',(req,res)=>
 {
-    try
-    {
-        feedback = "You got feedback for your portfolio. Please find the details<br>Feedback:  "+req.query.message
-        message = { "senderName" : req.query.name, "receiverName" : "Srujana" ,"mail" : req.query.email , "message" : feedback }
-
-        url = 'https://personal-mail.herokuapp.com/'+'mail'+'/'+'srujanapenugonda1318@outlook.com'+'/'+'Portfolio Feedback'+'/'+JSON.stringify(message)
-        request(url, (error,response)=>
-        {
-            res.render('thankyou')   
-        }) 
-    }
-    catch(e)
-    {
-        console.log("Error Occured",e)
-    }
+    url = 'https://personal-mail.herokuapp.com/'+'/'+'mail'+'/'+req.query.name+'/'+req.query.email+'/'+req.query.message
 })
 //Error messgaes for invalid pages
 app.get('*',(req,res)=>

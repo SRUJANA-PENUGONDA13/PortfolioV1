@@ -1,60 +1,44 @@
 const projectList = {
-    "React" : [
+    "Python" : [
         {
-            Name: "React Project",
-            Date: "May,2021",
-            Description: "A Command-Line-Application built with NodeJS. Start with the basics of JavaScript. Follow along to perform exercises, and Build a Quiz as the end result!",
-            link1: "",
+            Name: "Mail Service",
+            Date: "Dec,2020",
+            Description: "A simple mail service developed using flask and google API. To send mails to anyone from my mail id in particular format.<br>Technology - Python - Flask",
+            link1: "https://srujana-mail-service.herokuapp.com/",
+            link2: "https://github.com/SRUJANA-PENUGONDA13/Srujana-Mail-Service"
+        },
+        {
+            Name: "IFT Automation",
+            Date: "JAN,2021",
+            Description: "1. Processing of DDTSUTF files and generating DTMU outbound files report over mail <br>2. Analysis of IFT layouts and generating IFT files <br> Technology - Python",
+            link1: "https://github.com/SRUJANA-PENUGONDA13/AffliateWorld",
             link2: "https://github.com/SRUJANA-PENUGONDA13/AffliateWorld"
         }
     ],
     
+    "Node JS" : [
+        {
+            Name: "Know Me",
+            Date: "Mar,2021",
+            Description: "Portofolio to showcase skills, projects and interestS through responsive website<br>Frontend - HTML,CSS,JS<br>Backend - Node.js, Express.js",
+            link1: "https://dashboard.heroku.com/apps/srujana-penugonda-v1",
+            link2: "https://github.com/SRUJANA-PENUGONDA13/PortfolioV1"
+        }
+    ],
     "API" : [
         {
-            Name: "API Project",
-            Date: "May,2021",
-            Description: "A Command-Line-Application built with NodeJS. Start with the basics of JavaScript. Follow along to perform exercises, and Build a Quiz as the end result!",
-            link1: "",
-            link2: "https://github.com/SRUJANA-PENUGONDA13/AffliateWorld"
+            Name: "Task Manager API",
+            Date: "APR,2021",
+            Description: "To track and manage our tasks easily.<br>Features</br>1. JWT Authentication and Securely storing passwords on MongoDB using bcrypt</br>2. Testing using JEST<br>Technology - Nodejs,Mongodb,Jest",
+            link1: "https://srujana-task-manager.herokuapp.com/",
+            link2: "https://github.com/SRUJANA-PENUGONDA13/Task-Manager-API"
         },
         {
-            Name: "Do you know me",
+            Name: "Task Manger API Docs",
             Date: "May,2021",
-            Description: "A Command-Line-Application built with NodeJS. Start with the basics of JavaScript. Follow along to perform exercises, and Build a Quiz as the end result!",
-            link1: "",
-            link2: "https://github.com/SRUJANA-PENUGONDA13/AffliateWorld"
-        }
-    ],
-    "Python" : [
-        {
-            Name: "Python Project Python",
-            Date: "May,2021",
-            Description: "A Command-Line-Application built with NodeJS. Start with the basics of JavaScript. Follow along to perform exercises, and Build a Quiz as the end result!",
-            link1: "",
-            link2: "https://github.com/SRUJANA-PENUGONDA13/AffliateWorld"
-        },
-        {
-            Name: "Do you know me",
-            Date: "May,2021",
-            Description: "A Command-Line-Application built with NodeJS. Start with the basics of JavaScript. Follow along to perform exercises, and Build a Quiz as the end result!",
-            link1: "",
-            link2: "https://github.com/SRUJANA-PENUGONDA13/AffliateWorld"
-        }
-    ],
-    "CLI" : [
-        {
-            Name: "CLI Project",
-            Date: "May,2021",
-            Description: "A Command-Line-Application built with NodeJS. Start with the basics of JavaScript. Follow along to perform exercises, and Build a Quiz as the end result!",
-            link1: "",
-            link2: "https://github.com/SRUJANA-PENUGONDA13/AffliateWorld"
-        },
-        {
-            Name: "Do you know me",
-            Date: "May,2021",
-            Description: "A Command-Line-Application built with NodeJS. Start with the basics of JavaScript. Follow along to perform exercises, and Build a Quiz as the end result!",
-            link1: "",
-            link2: "https://github.com/SRUJANA-PENUGONDA13/AffliateWorld"
+            Description: "Swagger Documentation for Task Manager API <br> Technology - Nodejs,YAML",
+            link1: "https://srujana-task-manager-api-docs.herokuapp.com/swagger/",
+            link2: "https://github.com/SRUJANA-PENUGONDA13/TaskMangerApiDocs"
         }
     ]
 
@@ -89,12 +73,12 @@ const projectDetails = (projects)=>
             htmlEle+='<div class="project-link1">';
             htmlEle+='<a href=';
             htmlEle+=projects[i]['link1'];
-            htmlEle+='><b>Visit Live</b></a>';
+            htmlEle+=' target="_blank"><b>Visit Live</b></a>';
             htmlEle+='</div>';
             htmlEle+='<div class="project-link2">';
             htmlEle+='<a href=';
             htmlEle+=projects[i]['link2'];
-            htmlEle+='><b>View Code On Github</b></a>';
+            htmlEle+=' target="_blank"><b>View Code On Github</b></a>';
             htmlEle+='</div>';
             htmlEle+='</div>';
             htmlEle+='</div>';
@@ -112,16 +96,16 @@ function performAction(projectName)
     {
         projectDetails(projectList['Python'])
     }
-    if(projectName == "react")
+    if(projectName == "nodejs")
     {
-        projectDetails(projectList['React'])
+        projectDetails(projectList['Node JS'])
     }
     if(projectName == "api")
     {
         projectDetails(projectList['API'])
     }   
-    if(projectName == "cli")
-    {
-        projectDetails(projectList['CLI'])
-    }      
+    // if(projectName == "cli")
+    // {
+    //     projectDetails(projectList['CLI'])
+    // }      
 }
