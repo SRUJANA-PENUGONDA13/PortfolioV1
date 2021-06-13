@@ -4,7 +4,8 @@
   "description": "Srujana Penugonda Portfolio",
   "main": "app.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "dev" : "nodemon src/app.js -e js hbs"
   },
   "author": "Srujana Penugonda",
   "license": "ISC",

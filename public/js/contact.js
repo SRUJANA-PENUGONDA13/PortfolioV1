@@ -24,5 +24,6 @@ sendMailForm.addEventListener('submit', (e)=>
     nameInput.value = ''
     mailInput.value = ''
     textInput.value = ''  
+    thanksMsg.style.fontSize = "3em";
     thanksMsg.innerHTML = "Thank You"
 })

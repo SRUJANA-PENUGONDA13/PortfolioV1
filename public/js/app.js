@@ -6,21 +6,22 @@ const projectList = {
             Description: "A simple mail service developed using flask and google API. To send mails to anyone from my mail id in particular format.<br>Technology - Python - Flask",
             link1: "https://srujana-mail-service.herokuapp.com/",
             link2: "https://github.com/SRUJANA-PENUGONDA13/Srujana-Mail-Service"
-        },
-        {
-            Name: "IFT Automation",
-            Date: "JAN,2021",
-            Description: "1. Processing of DDTSUTF files and generating DTMU outbound files report over mail <br>2. Analysis of IFT layouts and generating IFT files <br> Technology - Python",
-            link1: "https://github.com/SRUJANA-PENUGONDA13/AffliateWorld",
-            link2: "https://github.com/SRUJANA-PENUGONDA13/AffliateWorld"
         }
+        // ,
+        // {
+        //     Name: "IFT Automation",
+        //     Date: "JAN,2021",
+        //     Description: "1. Processing of DDTSUTF files and generating DTMU outbound files report over mail <br>2. Analysis of IFT layouts and generating IFT files <br> Technology - Python",
+        //     link1: "https://github.com/SRUJANA-PENUGONDA13/AffliateWorld",
+        //     link2: "https://github.com/SRUJANA-PENUGONDA13/AffliateWorld"
+        // }
     ],
     
     "Node JS" : [
         {
             Name: "Know Me",
             Date: "Mar,2021",
-            Description: "Portofolio to showcase skills, projects and interestS through responsive website<br>Frontend - HTML,CSS,JS<br>Backend - Node.js, Express.js",
+            Description: "Portofolio to showcase skills, projects through responsive website<br>Frontend - HTML,CSS,JS<br>Backend - Node.js, Express.js",
             link1: "https://dashboard.heroku.com/apps/srujana-penugonda-v1",
             link2: "https://github.com/SRUJANA-PENUGONDA13/PortfolioV1"
         }
