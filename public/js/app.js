@@ -22,7 +22,7 @@ const projectList = {
             Name: "Know Me",
             Date: "Mar,2021",
             Description: "Portofolio to showcase skills, projects through responsive website<br>Frontend - HTML,CSS,JS<br>Backend - Node.js, Express.js",
-            link1: "https://dashboard.heroku.com/apps/srujana-penugonda-v1",
+            link1: "https://srujana-penugonda-v1.herokuapp.com/",
             link2: "https://github.com/SRUJANA-PENUGONDA13/PortfolioV1"
         }
     ],
