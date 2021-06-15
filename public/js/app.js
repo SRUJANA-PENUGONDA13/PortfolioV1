@@ -24,6 +24,13 @@ const projectList = {
             Description: "Portofolio to showcase skills, projects through responsive website<br>Frontend - HTML,CSS,JS<br>Backend - Node.js, Express.js",
             link1: "https://srujana-penugonda-v1.herokuapp.com/",
             link2: "https://github.com/SRUJANA-PENUGONDA13/PortfolioV1"
+        },
+        {
+            Name: "Catch Me",
+            Date: "May,2021",
+            Description: "A simple game to play with your friends without any registration<br> Technology - Node.js,Socket.io,Express.js",
+            link1: "https://srujana-catch-me.herokuapp.com/",
+            link2: "https://github.com/SRUJANA-PENUGONDA13/CatchMe"
         }
     ],
     "API" : [
