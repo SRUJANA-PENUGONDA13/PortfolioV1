@@ -28,7 +28,7 @@ const projectList = {
         {
             Name: "Catch Me",
             Date: "May,2021",
-            Description: "A simple game to play with your friends without any registration<br> Technology - Node.js,Socket.io,Express.js",
+            Description: "A simple game to play with your friends without any registration and bunch of people can play together<br>2. Technology - Node.js,Socket.io,Express.js",
             link1: "https://srujana-catch-me.herokuapp.com/",
             link2: "https://github.com/SRUJANA-PENUGONDA13/CatchMe"
         }
