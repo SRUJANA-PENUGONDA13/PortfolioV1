@@ -3,145 +3,120 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /*body Section */
-body,html
-{
+body,
+html {
   margin: 0;
   padding: 0;
 }
-* 
-{
+* {
   box-sizing: border-box;
 }
 /* Main Container */
-.main-container
-{
+.main-container {
   display: flex;
   height: 100vh;
   margin: 0;
   flex-direction: row;
 }
-@media only screen and (min-device-width:801px ) and (max-device-width: 899px)
-{
-  .left-nav
-  {
+@media only screen and (min-device-width: 801px) and (max-device-width: 899px) {
+  .left-nav {
     font-size: 2px !important;
   }
-  .right-sec
-  {
+  .right-sec {
     font-size: 2px !important;
   }
-
 }
 @media only screen and (max-width: 800px) {
-  .main-container
-  {
+  .main-container {
     flex-direction: column;
   }
-  .left-sec
-  {
+  .left-sec {
     width: 100% !important;
     height: 8% !important;
     border: 2px solid rgb(68, 62, 62) !important;
-  } 
-  .right-sec
-  {
+  }
+  .right-sec {
     width: 100% !important;
     height: 90% !important;
     font-size: 2px !important;
     /* border: 2px solid red !important; */
   }
-  .topnav
-  {
+  .topnav {
     display: flex !important;
-    top:0!important;
+    top: 0 !important;
   }
-  .left-nav
-  {
+  .left-nav {
     display: none !important;
     font-size: 3px !important;
   }
-  .content
-  {
+  .content {
     width: 100% !important;
     flex-direction: column !important;
     overflow-x: hidden !important;
     margin: 0 10em 0 10em !important;
-    padding-right: 10em!important;
+    padding-right: 10em !important;
   }
-  .info-card
-  {
+  .info-card {
     width: 50% !important;
   }
-  #code
-  {
+  #code {
     height: 8em !important;
     width: 8em !important;
   }
-  .project-info, .experience-info
-  {
+  .project-info,
+  .experience-info {
     display: column !important;
   }
- .project-card, .experience-card
-  {
+  .project-card,
+  .experience-card {
     width: 100% !important;
   }
-  .contact-content,.contact-first-input
-  {
-    flex-direction: column !important; 
+  .contact-content,
+  .contact-first-input {
+    flex-direction: column !important;
   }
-  .contact-content
-  {
+  .contact-content {
     margin: 0 12.5em auto 5.5em !important;
     height: 82% !important;
   }
-  .contact-left-area
-  {
+  .contact-left-area {
     margin-right: 100px;
     font-size: 1.3em;
     line-height: 1.4em;
   }
-  .contact-right-area
-  {
+  .contact-right-area {
     margin: 0 !important;
     margin-top: 10px !important;
   }
-  .contact-right-area .text-input
-  {
+  .contact-right-area .text-input {
     height: 15.5em !important;
     width: 30em !important;
   }
-  .contact-right-area input
-  {
+  .contact-right-area input {
     width: 30em !important;
   }
-  #submit
-  {
+  #submit {
     margin-left: 10em !important;
     text-align: left !important;
   }
 }
 /* Main Container End*/
 /* Left Section */
-.left-sec
-{
+.left-sec {
   width: 20%;
   height: 100%;
-  
-} 
-.topnav
-{
+}
+.topnav {
   display: none;
 }
 /* Mobile Nav Section */
-.topnav 
-{
+.topnav {
   overflow: hidden;
   background-color: rgb(68, 62, 62);
   position: relative;
   border: 2px solid rgb(68, 62, 62);
 }
-.topnav a 
-{
+.topnav a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -151,79 +126,66 @@ body,html
 
 /* Mobile Nav Section End */
 /* Nav Section */
-.left-nav
-{
+.left-nav {
   display: flex;
   flex-direction: column;
   font-size: 4px;
-  width:20%;
+  width: 20%;
   background-color: #333333;
   height: 100%;
   position: fixed;
 }
-.left-nav .logo
-{
+.left-nav .logo {
   width: 100%;
   height: 30%;
   margin-top: 2em;
   text-align: center;
 }
-.left-nav .logo p
-{
+.left-nav .logo p {
   margin-top: 1em;
 }
-.left-nav .nav
-{
+.left-nav .nav {
   width: 100%;
   height: 40%;
 }
-.left-nav .contact-info
-{
+.left-nav .contact-info {
   width: 100%;
   height: 30%;
 }
-.left-nav .logo img
-{
+.left-nav .logo img {
   height: 40em;
   width: 40em;
   border-radius: 50%;
   border: 1.3em solid lightgrey;
   margin: 1.9em 0 0em;
 }
-.left-nav .logo p
-{
+.left-nav .logo p {
   color: white;
   text-align: center;
   font-size: 5em;
 }
-.left-sec .nav 
-{
-  margin : 12.5em 0 0 8.75em;
+.left-sec .nav {
+  margin: 12.5em 0 0 8.75em;
 }
-.nav li
-{
+.nav li {
   list-style-type: none;
-  margin: 0 0 5em 0;  
+  margin: 0 0 5em 0;
 }
-.nav li a
-{
+.nav li a {
   color: white;
   text-decoration: none;
   font-size: 5em;
 }
-.nav li a i
-{
+.nav li a i {
   margin: 0 0.5em 0px 0;
 }
 /* Contact Info */
-.left-sec .contact-info
-{
-  margin : 8em 0 0 17.25em;
+.left-sec .contact-info {
+  margin: 8em 0 0 17.25em;
 }
-.left-sec .contact-info a i
-{
+.left-sec .contact-info a i {
   color: white;
-  margin:0 10px 0 0;
+  margin: 0 10px 0 0;
   font-size: 6.5em;
   text-decoration: none;
 }
@@ -231,29 +193,25 @@ body,html
 /* Nav Section End */
 /* Left Section End */
 /* Right Section */
-.right-sec
-{
+.right-sec {
   width: 80%;
   height: 100%;
   font-size: 4px;
 }
 /* Home Page */
-section
-{
-  background-color: rgb(230,230,230);
+section {
+  background-color: rgb(230, 230, 230);
   border: 2px solid rgb(68, 62, 62);
-  min-height: 110vh; 
-  display: block;  
+  min-height: 110vh;
+  display: block;
 }
-.home-content
-{
+.home-content {
   color: #0d101e;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
 }
-.name
-{
+.name {
   width: 100%;
   height: 100%;
   text-align: center;
@@ -261,23 +219,19 @@ section
   margin-top: 5.5em;
   font-size: 10em;
   font-weight: 700;
- 
 }
-.sub-heading
-{
+.sub-heading {
   text-align: center;
   font-size: 4.5em;
   line-height: 1.5em;
   font-weight: 400;
   color: #0d101e;
 }
-.contact
-{
+.contact {
   text-align: center;
   margin-top: 1.25em;
 }
-.contact a
-{
+.contact a {
   background-color: rgb(68, 62, 62);
   border-radius: 15em;
   color: white;
@@ -287,244 +241,214 @@ section
   cursor: pointer;
   font-weight: 700;
   border: 2px solid white;
-  text-decoration:none;
+  text-decoration: none;
 }
 /* Home Page End */
 /* About Page */
-#about
-{
+#about {
   width: 100%;
   height: 100%;
 }
-.about-content
-{
+.about-content {
   display: flex;
-  background-color: rgb(242,242,242);
-  font-family: "Poppins",sans-serif;
+  background-color: rgb(242, 242, 242);
+  font-family: "Poppins", sans-serif;
   flex-direction: column;
   width: 100%;
   height: 100%;
   position: relative;
 }
-.g-heading
-{
+.g-heading {
   display: flex;
   position: relative;
   margin: 0 auto 1rem;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
-.g-watermark
-{
+.g-watermark {
   position: relative;
-  font-size: calc(10em + 6.4vw)!important;
+  font-size: calc(10em + 6.4vw) !important;
   font-weight: 900;
   z-index: 0;
-  color:lightgray;
-  font-family: "Poppins",sans-serif;
+  color: lightgray;
+  font-family: "Poppins", sans-serif;
 }
-.g-subheading
-{
+.g-subheading {
   width: 100%;
   text-align: center;
-  position: absolute!important;
+  position: absolute !important;
   z-index: 1;
   color: #0d101e;
   font-weight: 500;
   font-size: 10em;
 }
-.g-subheading .g-underline 
-{
+.g-subheading .g-underline {
   position: relative;
   background-color: rgb(68, 62, 62);
   height: 3px;
   width: 4em;
   margin: auto;
 }
-.content
-{
+.content {
   width: 90%;
   margin: 1.1em 0 auto 25em;
   padding-bottom: 3rem;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.summary
-{
+.summary {
   display: block;
-  color : #0d101e;
-  width : 100%;
+  color: #0d101e;
+  width: 100%;
   height: 100%;
 }
-.summary h2
-{
+.summary h2 {
   margin: 0 0 1.5em 0;
   font-size: 5em;
   color: #0d101e;
 }
-.hobbies h2
-{
-  margin: 0 0 .4em 0;
+.hobbies h2 {
+  margin: 0 0 0.4em 0;
   font-size: 5em;
   color: #0d101e;
 }
-.summary p, .hobbies ul li 
-{
-  margin-top: .7rem;
+.summary p,
+.hobbies ul li {
+  margin-top: 0.7rem;
   color: #0d101e;
   font-size: 4.5em;
   line-height: 1.5em;
   font-weight: 400;
 }
-.hobbies
-{
-  width : 80%;
+.hobbies {
+  width: 80%;
   height: 100%;
-  margin: 0px; 
-  color : #0d101e;
+  margin: 0px;
+  color: #0d101e;
 }
-.hobbies ul li 
-{ 
+.hobbies ul li {
   margin-left: 0.2em;
   list-style-type: disc;
 }
 /* About Page End */
 /* Skills Page */
-.skills-content
-{
+.skills-content {
   width: 100%;
   height: 100%;
 }
-.skill-content
-{
+.skill-content {
   display: flex;
   flex-wrap: wrap;
   width: 85%;
   margin: auto;
   justify-content: space-between;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.info-card
-{
+.info-card {
   display: flex;
   width: 30%;
   text-align: left;
   flex-direction: row;
   margin: 0 auto 8em;
 }
-.info-card svg
-{
+.info-card svg {
   height: 16em;
   width: 16em;
 }
-#Layer_1
-{
-    padding : 0.5em;
-    background-color: rgb(68, 62, 62);
-    border-radius: 4em;
+#Layer_1 {
+  padding: 0.5em;
+  background-color: rgb(68, 62, 62);
+  border-radius: 4em;
 }
-.card-content
-{
+.card-content {
   margin-left: 4em;
   line-height: 6.9em;
 }
-.card-content h3
-{
+.card-content h3 {
   margin: 0.25em 0 0 0;
   font-size: 5em;
-  color:#0d101e;
+  color: #0d101e;
 }
-#code
-{
-    height: 10em !important;
-    width: 10em !important;
+#code {
+  height: 10em !important;
+  width: 10em !important;
 }
 /* Skills Page End */
 /* Projects Page */
-#projects
-{
+#projects {
   width: 100%;
   height: 100%;
-  background-color: rgb(242,242,242);
+  background-color: rgb(242, 242, 242);
   overflow: hidden;
 }
-.project-details ul
-{
+.project-details ul {
   font-size: 5.5em;
   line-height: 1.3em;
   font-weight: 400;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
-  margin-left: .9em;
+  margin-left: 0.9em;
   justify-content: center;
 }
-.project-details li
-{
+.project-details li {
   padding-right: 4.5em;
   font-weight: bold;
   list-style-type: none;
 }
-.project-details li a
-{
-  color:#0d101e;
+.project-details li a {
+  color: #0d101e;
   text-decoration: none;
   display: inline-block;
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
 }
-.project-details li a:hover
-{
+.project-details li a:hover {
   color: rgb(68, 62, 62);
   border-bottom: 4px solid rgb(70, 64, 64);
 }
-.project-info, .experience-info
-{
+.project-info,
+.experience-info {
   display: flex;
   flex-wrap: wrap;
   margin: auto 12.5em auto 12.5em;
   justify-content: center;
 }
-.project-card, .experience-card
-{
+.project-card,
+.experience-card {
   width: 43%;
   text-align: left;
   color: white;
   display: flex;
   flex-direction: column;
   background-color: gray;
-  margin: 0 auto 4em; 
-  height: 92.25em;
+  margin: 0 auto 4em;
+  height: 95.25em;
   z-index: 2;
 }
-.project-area
-{
-  margin : 1.6em;
+.project-area {
+  margin: 1.6em;
   line-height: 1.8em;
   font-size: 4.2em;
   font-weight: 400;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.project-area .project-link1
-{
+.project-area .project-link1 {
   margin-top: 0.8em;
 }
-.project-area a
-{
-  color:rgb(68, 62, 62);
+.project-area a {
+  color: rgb(68, 62, 62);
   line-height: 2em;
   font-size: 1em;
   font-weight: 400;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.project-area a:hover
-{
+.project-area a:hover {
   color: white;
 }
 /* Projects Page End */
 /* Experience Page */
-#experience
-{
+#experience {
   width: 100%;
   height: 100%;
 }
@@ -538,20 +462,19 @@ section
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: rgb(68, 62, 62);
 }
 /* Experience Page End */
 
 /* Contact Page */
-#contact
-{
+#contact {
   width: 100%;
   height: 100%;
-  background-color: rgb(242,242,242);
+  background-color: rgb(242, 242, 242);
 }
-.contact-content
-{
+.contact-content {
   display: flex;
   text-align: left;
   margin: 2.8em 0 0 5.6em;
@@ -559,92 +482,79 @@ section
   font-size: 4.5em;
   font-weight: 400;
   height: 60%;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #0d101e;
 }
-.contact-left-area h4, p, .contact-right-area h4
-{
+.contact-left-area h4,
+p,
+.contact-right-area h4 {
   margin: 0 0 10px 0;
 }
-.contact-left-area .contact-info
-{
+.contact-left-area .contact-info {
   margin: 0px;
 }
-.contact-left-area .contact-info i
-{
+.contact-left-area .contact-info i {
   color: #0d101e;
   margin: 0px 0.5em 0 0;
 }
-.contact-right-area
-{
+.contact-right-area {
   margin-left: 3.9em;
 }
-.contact-first-input 
-{
+.contact-first-input {
   display: flex;
 }
-.contact-first-input input
-{
+.contact-first-input input {
   margin: 0 1.1em 0.6em 0;
   height: 2.2em;
   width: 18.9em;
   background-color: lightgray;
-  border:0;
+  border: 0;
   outline: none;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1em;
-  color:#0d101e;
+  color: #0d101e;
 }
-.contact-right-area .text-input
-{
+.contact-right-area .text-input {
   height: 7.2em;
   width: 39.5em;
   background-color: lightgray;
   outline: none;
   border: 0;
   text-align: left;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1em;
-  color:#0d101e;
+  color: #0d101e;
 }
-.contact-right-area button 
-{
-  font-family: "Poppins",sans-serif;
+.contact-right-area button {
+  font-family: "Poppins", sans-serif;
   margin-top: 1.2em;
   padding: 0.9em 1.8em;
   font-size: 0.9em;
   border-radius: 8.9em;
   background-color: rgb(68, 62, 62);
-  color:white;
+  color: white;
   cursor: pointer;
   text-align: center;
 }
 /* Thanks Page */
-#thanks
-{
+#thanks {
   text-align: center;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 3.5em;
-  color:#0d101e;
-  margin-top : 1em;
+  color: #0d101e;
+  margin-top: 1em;
   width: 100%;
   height: 100%;
 }
-.thanks-content
-{
+.thanks-content {
   height: 60%;
 }
-#thankyou
-{
+#thankyou {
   height: 100%;
   width: 100%;
 }
 /* Contact Page End */
-#submit
-{
+#submit {
   text-align: center;
 }
 /* Right Section End */
-
-
-
